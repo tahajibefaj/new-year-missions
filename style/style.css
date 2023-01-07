@@ -21,6 +21,17 @@ section {
     color: rgb(97, 97, 97);
 }
 
+.section-btn {
+    background-color: white;
+    border-style: none;
+    color: rgb(0, 174, 255);
+    height: 60px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
 /* header styling */
 
 .header {
@@ -55,16 +66,6 @@ section {
     padding-right: 250px;
 }
 
-.header-btn {
-    background-color: white;
-    border-style: none;
-    color: rgb(0, 174, 255);
-    height: 60px;
-    width: 150px;
-    font-size: 17px;
-    font-weight: 700;
-    border-radius: 5px;
-}
 
 /* main styling */
 
@@ -129,4 +130,33 @@ main {
     color: rgb(97, 97, 97);
     font-size: 20px;
     font-weight: 600;
+}
+
+
+/* call styling */
+
+.call {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.call-btn {
+    padding-top: 40px;
+    text-align: left;
+    
+}
+
+.call .section-title {
+    color: white;
+}
+
+/* footer styling */
+
+
+.footer-section {
+    background-color: rgb(20, 20, 20);
+    color: white;
 }
