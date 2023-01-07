@@ -21,7 +21,7 @@ section {
 .section-btn {
   background-color: white;
   border-style: none;
-  color: rgb(0, 174, 255);
+  color: #025faa;
   height: 60px;
   width: 150px;
   font-size: 17px;
@@ -36,6 +36,7 @@ section {
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 20px 100px gray;
   height: 1000px;
 }
 
@@ -149,10 +150,44 @@ main {
   color: white;
 }
 
+/* about me styling */
+
+.about-me-container {
+  background-color: #025faa;
+  border-radius: 10px;
+  padding: 80px;
+  background-image: url(../images/hardy.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+.about-me {
+  color: white;
+}
+
+.about-me .section-description {
+  margin: 25px 0;
+  padding-right: 350px;
+  color: white;
+  font-weight: 400;
+}
+
+.about-me hr {
+  width: 250px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.about-me span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* footer styling */
 
 .footer-section {
   background-color: rgb(20, 20, 20);
+  box-shadow: 40px 0 100px gray;
   color: white;
 }
 .footer-container {
@@ -194,7 +229,7 @@ main {
 }
 
 .footer-email .section-btn {
-  background-color: rgb(0, 174, 255);
+  background-color: #025faa;
   color: white;
 }
 .footer-email .footer-btn {
