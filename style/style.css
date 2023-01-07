@@ -15,9 +15,6 @@ section {
 .section-description {
     font-size: 15px;
     font-weight: 500;
-    padding-top: 25px;
-    text-align: left;
-    padding-left: 650px;
     color: rgb(97, 97, 97);
 }
 
@@ -86,7 +83,11 @@ main {
 .failure .section-title {
     padding-top: 250px;
     padding-left: 650px;
-
+}
+.failure .section-description{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 650px;
 }
 .list-container {
     font-size: 15px;
@@ -158,5 +159,50 @@ main {
 
 .footer-section {
     background-color: rgb(20, 20, 20);
+    color: white;
+}
+.footer-container {
+    padding: 150px 0;
+    display: flex;
+    gap: 400px;
+}
+
+.subscribe-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.footer-socials {
+    padding-left: 400px;
+}
+
+
+
+.footer-socials .section-description {
+    padding: 15px 0;
+}
+
+.footer-socials img {
+    padding-top: 20px;
+    padding-right: 15px;    
+    text-decoration: none;
+
+}
+
+
+.footer-input {
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.footer-email .section-btn {
+    background-color: rgb(0, 174, 255);
     color: white;
 }
