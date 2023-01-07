@@ -1,208 +1,202 @@
 * {
-    margin: 0;
-    font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 section {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
 .section-title {
-    font-size: 45px;
-    text-align: left;
+  font-size: 45px;
+  text-align: left;
 }
 
 .section-description {
-    font-size: 15px;
-    font-weight: 500;
-    color: rgb(97, 97, 97);
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(97, 97, 97);
 }
 
 .section-btn {
-    background-color: white;
-    border-style: none;
-    color: rgb(0, 174, 255);
-    height: 60px;
-    width: 150px;
-    font-size: 17px;
-    font-weight: 700;
-    border-radius: 5px;
+  background-color: white;
+  border-style: none;
+  color: rgb(0, 174, 255);
+  height: 60px;
+  width: 150px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 5px;
 }
 
 /* header styling */
 
 .header {
-    background-image: url(../images/banner/banner3.png);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1000px;
+  background-image: url(../images/banner/banner3.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
 }
 
 .header-title {
-    color: white;
-    text-align: right;
-    font-size: 70px;
-    font-weight: 700;
-    padding-top: 250px;
-    padding-right: 250px;
-    margin-bottom: 0;
+  color: white;
+  text-align: right;
+  font-size: 70px;
+  font-weight: 700;
+  padding-top: 250px;
+  padding-right: 250px;
+  margin-bottom: 0;
 }
 
 .header-description {
-    margin-top: 30px;
-    color: white;
-    text-align: right;
-    padding-top: 0;
-    padding-right: 250px;
+  margin-top: 30px;
+  color: white;
+  text-align: right;
+  padding-top: 0;
+  padding-right: 250px;
 }
 
 .btn {
-    margin-top: 30px;
-    text-align: right;
-    padding-right: 250px;
+  margin-top: 30px;
+  text-align: right;
+  padding-right: 250px;
 }
-
 
 /* main styling */
 
 main {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 /* failure styling */
 
 .failure-section {
-    background-image: url(../images/person.png);
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 700px;
+  background-image: url(../images/person.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
 }
 .failure .section-title {
-    padding-top: 250px;
-    padding-left: 650px;
+  padding-top: 250px;
+  padding-left: 650px;
 }
-.failure .section-description{
-    text-align: left;
-    padding-top: 25px;
-    padding-left: 650px;
+.failure .section-description {
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 650px;
 }
 .list-container {
-    font-size: 15px;
-    font-weight: 500;
-    padding-top: 25px;
-    text-align: left;
-    padding-left: 650px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 25px;
+  text-align: left;
+  padding-left: 650px;
 }
 
 .list-container .failure-list {
-    margin: 20px 0;
-    color: rgb(97, 97, 97);
+  margin: 20px 0;
+  color: rgb(97, 97, 97);
 }
 .failure-list i {
-    color: rgb(72, 255, 0);
+  color: rgb(72, 255, 0);
 }
-
 
 /* myplans styling */
 
-
 .myplans-section .section-title {
-    text-align: center;
-    margin-bottom: 60px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .myplans-container {
-    padding-top: 20px;
-    display: flex;
-    gap: 40px;
+  padding-top: 20px;
+  display: flex;
+  gap: 40px;
 }
 .plan {
-    text-align: center;
+  text-align: center;
 }
 .myplans-title {
-    padding: 20px 0;
-    font-size: 25px;
-    font-weight: 800;
+  padding: 20px 0;
+  font-size: 25px;
+  font-weight: 800;
 }
 .myplans-description {
-    color: rgb(97, 97, 97);
-    font-size: 20px;
-    font-weight: 600;
+  color: rgb(97, 97, 97);
+  font-size: 20px;
+  font-weight: 600;
 }
-
 
 /* call styling */
 
 .call {
-    background-image: url(../images/gradient1.png), url(../images/watch.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 300px;
-    padding-top: 40px;
-    padding-left: 50px;
+  background-image: url(../images/gradient1.png), url(../images/watch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-top: 40px;
+  padding-left: 50px;
 }
 .call-btn {
-    padding-top: 40px;
-    text-align: left;
-    
+  padding-top: 40px;
+  text-align: left;
 }
 
 .call .section-title {
-    color: white;
+  color: white;
 }
 
 /* footer styling */
 
-
 .footer-section {
-    background-color: rgb(20, 20, 20);
-    color: white;
+  background-color: rgb(20, 20, 20);
+  color: white;
 }
 .footer-container {
-    padding: 150px 0;
-    display: flex;
-    gap: 400px;
+  padding: 150px 0;
+  display: flex;
+  gap: 400px;
 }
 
 .subscribe-title {
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
 }
 .footer-socials {
-    padding-left: 400px;
+  padding-left: 400px;
 }
 
-
-
 .footer-socials .section-description {
-    padding: 15px 0;
+  color: white;
+  padding: 15px 0;
 }
 
 .footer-socials img {
-    padding-top: 20px;
-    padding-right: 15px;    
-    text-decoration: none;
-
+  padding-top: 20px;
+  padding-right: 15px;
+  text-decoration: none;
 }
 
-
 .footer-input {
-    height: 60px;
-    width: 250px;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-color: white;
-    font-size: 15px;
-    padding-left: 30px;
-    margin-top: 20px;
+  height: 60px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-color: white;
+  font-size: 15px;
+  padding-left: 30px;
+  margin-top: 20px;
 }
 
 .footer-email .section-btn {
-    background-color: rgb(0, 174, 255);
-    color: white;
+  background-color: rgb(0, 174, 255);
+  color: white;
+}
+.footer-email .footer-btn {
+  margin-top: 30px;
 }
